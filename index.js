@@ -40,6 +40,16 @@ function add1ToAway() {
 function updateDisplay() {
   homeScoreEl.textContent = homeScore
   awayScoreEl.textContent = awayScore
+  if (homeScore > awayScore) {
+    homeScoreEl.classList.add('winning')
+    awayScoreEl.classList.remove('winning')
+  } else if (awayScore > homeScore) {
+    awayScoreEl.classList.add('winning')
+    homeScoreEl.classList.remove('winning')
+  } else {
+    awayScoreEl.classList.remove('winning')
+    homeScoreEl.classList.remove('winning')
+  }
 }
 
 function startNewGame() {
