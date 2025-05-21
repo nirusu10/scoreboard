@@ -21,7 +21,7 @@ button {
   height: 45px;
   width: 45px;
   cursor: pointer;
-  font-family: CursedTimer;
+  font-family: CursedTimer, sans-serif;
 }
 
 button:hover {
@@ -60,5 +60,5 @@ h3 {
   align-items: center;
   justify-content: center;
   margin-bottom: 26px;
-  font-family: CursedTimer;
+  font-family: CursedTimer, sans-serif;
 }
