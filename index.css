@@ -8,8 +8,16 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5 {
+  margin: 0;
+}
+
 .button-container {
-  margin-bottom: 70px;
+  margin-bottom: 26px;
   display: flex;
   gap: 8px;
 }
@@ -30,12 +38,15 @@ button:hover {
 }
 
 .container {
-  display: flex;
-  justify-content: space-around;
   background-color: #1b244a;
   max-width: 575px;
   margin-inline: auto;
-  margin-top: 32px;
+  padding-block: 60px;
+}
+
+.display-container {
+  display: flex;
+  justify-content: space-around;
 }
 
 .display-section {
@@ -61,4 +72,12 @@ h3 {
   justify-content: center;
   margin-bottom: 26px;
   font-family: CursedTimer, sans-serif;
+}
+
+#new-game-btn {
+  height: auto;
+  width: auto;
+  padding: 10px 20px;
+  display: block;
+  margin-inline: auto;
 }

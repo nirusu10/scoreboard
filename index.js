@@ -41,3 +41,9 @@ function updateDisplay() {
   homeScoreEl.textContent = homeScore
   awayScoreEl.textContent = awayScore
 }
+
+function startNewGame() {
+  homeScore = 0
+  awayScore = 0
+  updateDisplay()
+}
